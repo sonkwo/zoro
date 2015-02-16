@@ -1,11 +1,12 @@
-inpackage main
+package main
 
 import (
-  "fmt"
+  // "fmt"
   "github.com/sonkwo/zoro/nexus"
 )
 
 func main() {
-  a := nexus.Add1(1, 2)
-  fmt.Println("main output...", a)
+
+  nexus.StartServe(20131)
+
 }
